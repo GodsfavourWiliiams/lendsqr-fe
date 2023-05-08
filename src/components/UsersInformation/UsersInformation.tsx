@@ -1,9 +1,9 @@
 import "./UsersInformation.scss";
 import UsersCard from "../UsersCard/UsersCard";
-import users from "../../assets/icons/users_icon.png";
-import activeUsers from "../../assets/icons/active_users.png";
-import usersWithLoans from "../../assets/icons/users_with_loans.png";
-import usersWithSavings from "../../assets/icons/users_with_savings.png";
+import users from "../../assets/icons/users_icon.svg";
+import activeUsers from "../../assets/icons/active_users.svg";
+import usersWithLoans from "../../assets/icons/users_with_loans.svg";
+import usersWithSavings from "../../assets/icons/users_with_savings.svg";
 
 const UsersInformation = () => {
   return (

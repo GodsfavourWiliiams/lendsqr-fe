@@ -1,6 +1,6 @@
 import "./Header.scss";
 import logo from "../../assets/dashboard-logo.svg";
-import image from "../../assets/profile-picture.png";
+import image from "../../assets/profile-picture.svg";
 import { MdOutlineSearch, MdOutlineArrowDropDown } from "react-icons/md";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
