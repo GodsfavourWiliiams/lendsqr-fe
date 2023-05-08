@@ -1,5 +1,5 @@
 import "./LoginPage.scss";
-import logo from "../../assets/login-logo.svg";
+import logo from "../../assets/dashboard-logo.svg";
 import image from "../../assets/login-image.svg";
 import { useNavigate, useNavigation } from "react-router-dom";
 import { useState } from "react";
