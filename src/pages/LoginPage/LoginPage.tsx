@@ -1,6 +1,6 @@
 import "./LoginPage.scss";
-import logo from "../../assets/login-logo.png";
-import image from "../../assets/login-image.png";
+import logo from "../../assets/login-logo.svg";
+import image from "../../assets/login-image.svg";
 import { useNavigate, useNavigation } from "react-router-dom";
 import { useState } from "react";
 import { ClipLoader } from "react-spinners";

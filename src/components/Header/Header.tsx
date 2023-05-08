@@ -1,5 +1,5 @@
 import "./Header.scss";
-import logo from "../../assets/dashboard-logo.png";
+import logo from "../../assets/dashboard-logo.svg";
 import image from "../../assets/profile-picture.png";
 import { MdOutlineSearch, MdOutlineArrowDropDown } from "react-icons/md";
 import { IoIosNotificationsOutline } from "react-icons/io";
