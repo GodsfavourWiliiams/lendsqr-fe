@@ -6,17 +6,34 @@ import usersWithLoans from "../../assets/icons/users_with_loans.svg";
 import usersWithSavings from "../../assets/icons/users_with_savings.svg";
 
 const UsersInformation = () => {
+  const stats = [
+    { name: "USERS", icon: users, amount: 2453 },
+    { name: "ACTIVE USERS", icon: activeUsers, amount: 2453 },
+    { name: "USERS WITH LOANS", icon: usersWithLoans, amount: 12453 },
+    { name: "USERS WITH SAVINGS", icon: usersWithSavings, amount: 102453 }
+  ];
+
   return (
+    // <div className="user-information-container">
+    //   <UsersCard name="USERS" icon={users} amount={2453} />
+    //   <UsersCard name="ACTIVE USERS" icon={activeUsers} amount={2453} />
+    //   <UsersCard name="USERS WITH LOANS" icon={usersWithLoans} amount={12453} />
+    //   <UsersCard
+    //     name="USERS WITH SAVINGS"
+    //     icon={usersWithSavings}
+    //     amount={102453}
+    //   />
+    // </div>
     <div className="user-information-container">
-      <UsersCard name="USERS" icon={users} amount={2453} />
-      <UsersCard name="ACTIVE USERS" icon={activeUsers} amount={2453} />
-      <UsersCard name="USERS WITH LOANS" icon={usersWithLoans} amount={12453} />
-      <UsersCard
-        name="USERS WITH SAVINGS"
-        icon={usersWithSavings}
-        amount={102453}
-      />
-    </div>
+     {stats.map((card, index) => (
+       <UsersCard
+         key={index}
+         name={card.name}
+         icon={card.icon}
+         amount={card.amount}
+       />
+     ))}
+   </div>
   );
 };
 

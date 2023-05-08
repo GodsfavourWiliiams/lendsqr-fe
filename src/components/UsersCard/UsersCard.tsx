@@ -5,7 +5,9 @@ interface UsersCardProps {
   icon: string;
   amount: number;
 }
+
 const UsersCard = (props: UsersCardProps) => {
+  
   return (
     <div className="users-card-container">
       <img src={props.icon} alt="" />

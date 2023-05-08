@@ -1,6 +1,6 @@
 import "./Header.scss";
 import logo from "../../assets/dashboard-logo.svg";
-import image from "../../assets/profile-picture.svg";
+import profileImage from "../../assets/profile-picture.svg";
 import { MdOutlineSearch, MdOutlineArrowDropDown } from "react-icons/md";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
@@ -48,7 +48,7 @@ const Header = () => {
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded)
               }} >
-            <img className="profile-image" src={image} alt="profile-img" />
+            <img className="profile-image" src={profileImage} alt="profile-img" />
             <div className="action-btn">
               <p className="username">Adedeji</p>
               <div className="drop">
