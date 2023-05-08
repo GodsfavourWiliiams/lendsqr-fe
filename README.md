@@ -1,17 +1,29 @@
 # Lendsqr Frontend Engineer Assessment Test
+Open [live site](https://lendsqr-fe.vercel.app/dashboard) hosted on Vercel here.
 
-This project was bootstrapped with React and Typescript.
+This project is a React and Typescript application.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run the command below to start the application
+To run the application locally, use the following command:
+
+## `npm install`
+
+Install dependencies.
 
 ### `npm start`
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will start the app in development mode and open it in your browser at [http://localhost:3000](http://localhost:3000).
 
-Open [live site](https://imeh-usoro-lendsqr-fe-test.vercel.app/) hosted on Vercel here.
+## `npm run build`
+
+To build the application for production.
+
+### Running Tests
+
+You can run tests for the application using the following command:
+
+## `npm run test`
 
 #### Libraries Used
 
@@ -19,21 +31,13 @@ Open [live site](https://imeh-usoro-lendsqr-fe-test.vercel.app/) hosted on Verce
 * Scss for styling.
 * React Table for Dashboard Table.
 * React spinners for loader screens.
+* Redux for state management
 
 #### Features
 
+The application offers the following features:
 * Responsive Design.
 * Dashboard table with filtering, sorting and pagination.
 * Loader screens on request loading.
 * Error pages on request error.
 
-#### Navigating the table
-
-* To navigate to a particular user's details click on the text in Organization, Username, Email or Phone Number column for that particular row.
-* You can also use the action button on the last column to navigate to the user's detail page. A modal pops up and you can click on the "View Details" button to navigate to the user's detail page.
-* Click on the table header on each column to sort the table. You can either sort in ascending or descending order.
-* Use the search input in the header to search any column on the table.
-* Click on the filter icon to filter the table. A modal pops up and the table updates as you type/select an option. You can filter by organization, username, email, phone number and status.
-* Click outside the modal to close it.
-* To reset the table to it's initial state, click on any filter icon.
-* Click on the pagination buttons to navigate through the table.
