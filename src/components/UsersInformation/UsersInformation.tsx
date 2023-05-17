@@ -14,26 +14,16 @@ const UsersInformation = () => {
   ];
 
   return (
-    // <div className="user-information-container">
-    //   <UsersCard name="USERS" icon={users} amount={2453} />
-    //   <UsersCard name="ACTIVE USERS" icon={activeUsers} amount={2453} />
-    //   <UsersCard name="USERS WITH LOANS" icon={usersWithLoans} amount={12453} />
-    //   <UsersCard
-    //     name="USERS WITH SAVINGS"
-    //     icon={usersWithSavings}
-    //     amount={102453}
-    //   />
-    // </div>
     <div className="user-information-container">
      {stats.map((card, index) => (
        <UsersCard
-         key={index}
-         name={card.name}
-         icon={card.icon}
-         amount={card.amount}
-       />
-     ))}
-   </div>
+          key={index}
+          name={card.name}
+          icon={card.icon}
+          amount={card.amount}
+        />
+      ))}
+    </div>
   );
 };
 
